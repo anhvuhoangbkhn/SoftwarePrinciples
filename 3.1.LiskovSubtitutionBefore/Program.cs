@@ -6,7 +6,13 @@ namespace _3._1.LiskovSubtitutionBefore
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+        }
+
+        public double GetTaxForArea(Rectangle area, double taxFree)
+        {
+
+            return area.AreaCalculator() * taxFree;
         }
     }
 }
